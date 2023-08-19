@@ -30,7 +30,7 @@ const CountryDetails = ({ countryCode }) => {
 
   return (
     <div>
-      <h2>{country.name}</h2>
+      <h2>Country Name:{country.name}</h2>
       <p>Native Name: {country.native}</p>
       <p>Number of states: {country.states.length}</p>
       <p>States: {country.states.map(curr => curr.name).join(', ')}</p>
